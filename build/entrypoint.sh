@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Installs Bitwarden CLI
+npm install -g @bitwarden/cli
+
 # Function to handle termination signals
 terminate() {
   echo "Terminating the Bitwarden service..."
